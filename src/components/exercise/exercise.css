@@ -1,0 +1,14 @@
+.exercise-container {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #1d192c;
+  margin: 20px 0;
+  box-sizing: border-box;
+}
+
+.exercise-list {
+  list-style-type: none;
+  margin-left: 35px;
+}
