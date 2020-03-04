@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap");
+
+
 .daycard-container {
   display: flex;
   flex-direction: column;
@@ -9,4 +12,12 @@
   border-radius: 3px;
   width: 7%;
   cursor: pointer;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  
+}
+.daycard-container:hover{
+background-color: #9BD138;
 }

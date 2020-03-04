@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap");
+
 .input-container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   /*  width: 100%; */
   box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
 }
 
 .input-header {
@@ -12,16 +15,19 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+
+  font-size: 30px;
 }
 .input {
   height: 45px;
   margin-top: 15px;
   /* width: 369px; */
-  border: 2px #7ee500 solid;
+  border: 2px  #bdff44 solid;
   border-radius: 5px;
   padding: 10px;
   font-size: 15px;
 }
+
 .smaller-container {
   width: 100%;
   display: flex;
@@ -32,3 +38,9 @@
   width: 45%;
 }
 
+label {
+  margin-top: 15px;
+  color:  #bdff44;
+  font-size: 20px;
+  border-bottom:  #bdff44 1px solid;
+}

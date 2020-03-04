@@ -4,7 +4,7 @@ import "./dayCard.css";
 
 const DayCard = ({ dia, ejercicios, dayKey }) => (
   <Link to={`/day/${dayKey}`} className="daycard-container">
-    <div className="daycard-title">{dia}</div>
+    <div className="daycard-title">{dia.toUpperCase()}</div>
     <span className="daycard-qty">({ejercicios.length})</span>
   </Link>
 );

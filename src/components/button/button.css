@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap");
+
+
 .btn {
   border: none;
   background-color: #bdff44;
@@ -8,4 +11,8 @@
   font-size: 16px;
   border-radius: 3px;
   color: #070217;
+
+}
+.btn:hover {
+  background-color: #9BD138;
 }

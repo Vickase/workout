@@ -1,6 +1,8 @@
 import React from "react";
 import { DAYS, DAYS_NAMES } from "../../constants";
 
+import TextField from "@material-ui/core/TextField";
+
 import "./inputs.css";
 
 const Inputs = props => {
@@ -9,7 +11,7 @@ const Inputs = props => {
       <header className="input-header">
         <h3>Insert Routine</h3>
       </header>
-
+      <label> Seleccione un día</label>
       <select
         placeholder="Ingrese el día"
         id="numero-dia"
@@ -20,6 +22,7 @@ const Inputs = props => {
           <option value={val}>{DAYS_NAMES[val]}</option>
         ))}
       </select>
+      <label> Ejercicio</label>
       <input
         className="input"
         type="text"
@@ -27,6 +30,7 @@ const Inputs = props => {
         id="ejercicio"
         onChange={e => props.setExercise(e.target.value)}
       ></input>
+      <label> Repeticiones y sets</label>
       <div className="smaller-container">
         <input
           className="input"
