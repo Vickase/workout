@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/vickase.github.io/workout/static/css/main.34a08be4.chunk.css",
+    "main.js": "/vickase.github.io/workout/static/js/main.bbd62f8a.chunk.js",
+    "main.js.map": "/vickase.github.io/workout/static/js/main.bbd62f8a.chunk.js.map",
+    "runtime-main.js": "/vickase.github.io/workout/static/js/runtime-main.594d143b.js",
+    "runtime-main.js.map": "/vickase.github.io/workout/static/js/runtime-main.594d143b.js.map",
+    "static/js/2.e1f9dedd.chunk.js": "/vickase.github.io/workout/static/js/2.e1f9dedd.chunk.js",
+    "static/js/2.e1f9dedd.chunk.js.map": "/vickase.github.io/workout/static/js/2.e1f9dedd.chunk.js.map",
+    "index.html": "/vickase.github.io/workout/index.html",
+    "precache-manifest.d707e3436a5e7c9ac3faf97fe34a92f0.js": "/vickase.github.io/workout/precache-manifest.d707e3436a5e7c9ac3faf97fe34a92f0.js",
+    "service-worker.js": "/vickase.github.io/workout/service-worker.js",
+    "static/css/main.34a08be4.chunk.css.map": "/vickase.github.io/workout/static/css/main.34a08be4.chunk.css.map",
+    "static/js/2.e1f9dedd.chunk.js.LICENSE.txt": "/vickase.github.io/workout/static/js/2.e1f9dedd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.594d143b.js",
+    "static/js/2.e1f9dedd.chunk.js",
+    "static/css/main.34a08be4.chunk.css",
+    "static/js/main.bbd62f8a.chunk.js"
+  ]
+}
