@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/vickase.github.io/workout/static/css/main.34a08be4.chunk.css",
-    "main.js": "/vickase.github.io/workout/static/js/main.bbd62f8a.chunk.js",
-    "main.js.map": "/vickase.github.io/workout/static/js/main.bbd62f8a.chunk.js.map",
-    "runtime-main.js": "/vickase.github.io/workout/static/js/runtime-main.594d143b.js",
-    "runtime-main.js.map": "/vickase.github.io/workout/static/js/runtime-main.594d143b.js.map",
-    "static/js/2.e1f9dedd.chunk.js": "/vickase.github.io/workout/static/js/2.e1f9dedd.chunk.js",
-    "static/js/2.e1f9dedd.chunk.js.map": "/vickase.github.io/workout/static/js/2.e1f9dedd.chunk.js.map",
-    "index.html": "/vickase.github.io/workout/index.html",
-    "precache-manifest.d707e3436a5e7c9ac3faf97fe34a92f0.js": "/vickase.github.io/workout/precache-manifest.d707e3436a5e7c9ac3faf97fe34a92f0.js",
-    "service-worker.js": "/vickase.github.io/workout/service-worker.js",
-    "static/css/main.34a08be4.chunk.css.map": "/vickase.github.io/workout/static/css/main.34a08be4.chunk.css.map",
-    "static/js/2.e1f9dedd.chunk.js.LICENSE.txt": "/vickase.github.io/workout/static/js/2.e1f9dedd.chunk.js.LICENSE.txt"
+    "main.css": "/workout/static/css/main.34a08be4.chunk.css",
+    "main.js": "/workout/static/js/main.5a7ec312.chunk.js",
+    "main.js.map": "/workout/static/js/main.5a7ec312.chunk.js.map",
+    "runtime-main.js": "/workout/static/js/runtime-main.3e31a394.js",
+    "runtime-main.js.map": "/workout/static/js/runtime-main.3e31a394.js.map",
+    "static/js/2.e1f9dedd.chunk.js": "/workout/static/js/2.e1f9dedd.chunk.js",
+    "static/js/2.e1f9dedd.chunk.js.map": "/workout/static/js/2.e1f9dedd.chunk.js.map",
+    "index.html": "/workout/index.html",
+    "precache-manifest.e1b93e6a5f0b3ee0bf1b5c770ba99f9f.js": "/workout/precache-manifest.e1b93e6a5f0b3ee0bf1b5c770ba99f9f.js",
+    "service-worker.js": "/workout/service-worker.js",
+    "static/css/main.34a08be4.chunk.css.map": "/workout/static/css/main.34a08be4.chunk.css.map",
+    "static/js/2.e1f9dedd.chunk.js.LICENSE.txt": "/workout/static/js/2.e1f9dedd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.594d143b.js",
+    "static/js/runtime-main.3e31a394.js",
     "static/js/2.e1f9dedd.chunk.js",
     "static/css/main.34a08be4.chunk.css",
-    "static/js/main.bbd62f8a.chunk.js"
+    "static/js/main.5a7ec312.chunk.js"
   ]
 }
