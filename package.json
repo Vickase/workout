@@ -1,7 +1,6 @@
 {
   "name": "workout",
   "version": "0.1.0",
-  "homepage": "https://vickase.github.io/workout/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.9.5",

@@ -1,0 +1,31 @@
+.overlay-container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: #222222;
+  z-index: 10;
+  font-family: "Oswald", sans-serif;
+}
+.overlay-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  height: 60%;
+}
+.overlay-title {
+  color: #bdff44;
+  font-size: 95px;
+  /* text-align: center; */
+  line-height: 93px;
+  padding: 0 20px;
+}
+
+.overlay-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

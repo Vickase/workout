@@ -4,6 +4,7 @@ import "./form.css";
 
 import { DAYS } from "../../constants";
 import Header from "../header";
+import Button from "../button";
 
 const Form = ({ addEjercicio }) => {
   const [dia, setDia] = useState(DAYS.MONDAY);
@@ -23,12 +24,11 @@ const Form = ({ addEjercicio }) => {
         />
       </section>
       <footer className="form-footer">
-        <button
-          className="form-add-btn"
+        <Button
           onClick={_e => addEjercicio({ exercise, repeticiones, sets }, dia)}
         >
           Add exercise
-        </button>
+        </Button>
       </footer>
     </div>
   );

@@ -2,9 +2,9 @@ import React from "react";
 import "./header.css";
 import BackButton from "../backButton";
 
-const Header = ({ title }) => (
+const Header = ({ title, onBack }) => (
   <header className="header-container">
-    <BackButton />
+    <BackButton onClick={onBack} />
     <h1>{title}</h1>
   </header>
 );

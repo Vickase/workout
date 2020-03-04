@@ -5,6 +5,7 @@ import "./App.css";
 
 import Home from "./pages/home";
 import Add from "./pages/add";
+import Days from "./pages/days";
 import Day from "./pages/day";
 import { DAYS, DAYS_NAMES } from "./constants";
 import { validate } from "./validate";
@@ -25,6 +26,8 @@ const App = () => {
     leave: { opacity: 0, transform: "translate3d(-50%,0,0)" }
   });
 
+  // TODO: move to hoc???
+  // TODO: reducer
   // State
   const [rutina, setRutina] = useState(initializeState());
   const addEjercicio = (ejercicio, dia) => {
@@ -53,6 +56,11 @@ const App = () => {
               path="/add"
               exact
               render={props => <Add {...props} addEjercicio={addEjercicio} />}
+            />
+            <Route
+              path="/days"
+              exact
+              render={props => <Days {...props} rutina={rutina} />}
             />
             <Route
               path="/day/:day"
