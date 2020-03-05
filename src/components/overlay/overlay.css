@@ -29,3 +29,12 @@
   flex-direction: row;
   justify-content: center;
 }
+
+@media (min-width: 300px) {
+  .overlay-title {
+    color: #bdff44;
+    font-size: 80px;
+    line-height: 93px;
+    padding: 0 20px;
+  }
+}

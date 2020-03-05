@@ -11,3 +11,17 @@
   justify-content: space-around;
   width: 100%;
 }
+@media (min-width: 300px) {
+  .daycards-container {
+    display: flex;
+    width: 100%;
+    flex-wrap:wrap;
+    margin:0;
+  }
+  .daycard-title{
+    font-size: 20px;
+  }
+  .daycard-qty{
+    font-size: 20px;
+  }
+}

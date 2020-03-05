@@ -11,8 +11,14 @@
   font-size: 16px;
   border-radius: 3px;
   color: #070217;
+  font-family: "Oswald", sans-serif;
 
 }
 .btn:hover {
   background-color: #9BD138;
+}
+@media (min-width: 300px) {
+  .btn{
+    font-size: 18px;
+  }
 }

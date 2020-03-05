@@ -19,10 +19,9 @@
   font-size: 30px;
 }
 .input {
-  height: 45px;
   margin-top: 15px;
   /* width: 369px; */
-  border: 2px  #bdff44 solid;
+  border: 2px #bdff44 solid;
   border-radius: 5px;
   padding: 10px;
   font-size: 15px;
@@ -40,7 +39,21 @@
 
 label {
   margin-top: 15px;
-  color:  #bdff44;
+  color: #bdff44;
   font-size: 20px;
-  border-bottom:  #bdff44 1px solid;
+  border-bottom: #bdff44 1px solid;
+}
+@media (min-width: 300px) {
+  .input-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 30px;
+    height: 80px;
+  }
+  .smaller-container > input {
+    width: 35%;
+  }
 }

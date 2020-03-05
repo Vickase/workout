@@ -1,8 +1,6 @@
 import React from "react";
 import { DAYS, DAYS_NAMES } from "../../constants";
 
-import TextField from "@material-ui/core/TextField";
-
 import "./inputs.css";
 
 const Inputs = props => {
