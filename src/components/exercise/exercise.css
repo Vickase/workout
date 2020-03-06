@@ -1,14 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap");
+
 .exercise-container {
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
-  border-radius: 10px;
-  background-color: #1d192c;
+  border-radius: 5px;
+  background-color: #000000;
   margin: 20px 0;
   box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  transition: box-shadow 0.3s;
+  display: flex;
+  flex-direction: row;
+}
+.exercise-container:hover {
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  color: #bdff44;
+}
+.fitness {
+  width: 70%;
+  display: flex;
 }
 
 .exercise-list {
   list-style-type: none;
-  margin-left: 35px;
+  padding-left: 10px;
+}
+.exercise-name {
+  font-size: 30px;
+  margin-top: 0;
+}
+.icono {
+  display: flex;
+  flex-direction: column;
 }

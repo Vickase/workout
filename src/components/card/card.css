@@ -1,13 +1,15 @@
 .card-container {
-  width: 350px;
+  width: 40%;
   height: auto;
-  background-color: #070217;
+/*   background-color: #111111;*/
   color: white;
   margin: 20px;
-  border-radius: 20px;
+  border-radius: 5px;
   box-sizing: border-box;
   padding: 22px;
 }
+
+
 
 .card-header {
   margin: 20px 0;
